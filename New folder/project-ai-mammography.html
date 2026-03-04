@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>AI-assisted Mammography Reader</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container site-header-inner">
+        <div>
+          <h1>AI-assisted Mammography Reader</h1>
+          <p class="subtitle">Prototype: image-based lesion detection and probability mapping</p>
+        </div>
+        <nav>
+          <ul class="site-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <section>
+        <h2>Overview</h2>
+        <p>This prototype uses a convolutional neural network trained on public mammography datasets to produce heatmaps indicating regions that may warrant further clinical review. The pipeline includes pre-processing, model inference and a small UI to visualise probability maps alongside original images.</p>
+        <h3>Tech</h3>
+        <p>Python, PyTorch, OpenCV, Flask (visualiser)</p>
+        <h3>Notes</h3>
+        <p>Data used for research purposes only. This is not a diagnostic device.</p>
+      </section>
+      <footer class="site-footer">
+        <p><a href="projects.html">Back to Projects</a></p>
+      </footer>
+    </main>
+  </body>
+</html>
