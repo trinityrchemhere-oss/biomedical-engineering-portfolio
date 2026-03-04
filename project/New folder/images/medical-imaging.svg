@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-label="Medical imaging workstation illustration">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#f0f9ff"/>
+      <stop offset="1" stop-color="#fff1f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#g)"/>
+  <g transform="translate(80,80)">
+    <rect x="0" y="0" width="620" height="380" rx="12" fill="#0f172a" opacity="0.95"/>
+    <rect x="24" y="24" width="428" height="292" rx="6" fill="#081226"/>
+    <g transform="translate(40,40)">
+      <rect width="380" height="200" rx="6" fill="#09263d"/>
+      <g fill="#7ee3ff" font-family="sans-serif" font-size="26">
+        <text x="18" y="42">Mammogram</text>
+        <text x="18" y="82">Tomosynthesis</text>
+        <text x="18" y="122">MRI</text>
+      </g>
+      <g transform="translate(220,20)" fill="#ffd7de">
+        <circle cx="60" cy="40" r="36"/>
+        <rect x="110" y="12" width="120" height="56" rx="8" fill="#ffd7de"/>
+      </g>
+    </g>
+
+    <g transform="translate(460,40)">
+      <rect x="0" y="0" width="120" height="80" rx="8" fill="#ffffff" stroke="#dbeafe"/>
+      <rect x="8" y="10" width="104" height="56" rx="6" fill="#f7fbff"/>
+      <g transform="translate(12,14)">
+        <rect x="0" y="0" width="64" height="40" rx="4" fill="#e6f4ff"/>
+        <rect x="72" y="0" width="24" height="10" rx="2" fill="#ffd7de"/>
+        <rect x="72" y="14" width="24" height="10" rx="2" fill="#cfe9ff"/>
+        <circle cx="44" cy="28" r="6" fill="#ff7b8a" opacity="0.9"/>
+      </g>
+    </g>
+
+    <g transform="translate(80,320)">
+      <rect x="0" y="0" width="520" height="28" rx="6" fill="#e6f4ff"/>
+      <rect x="12" y="6" width="160" height="16" rx="4" fill="#0a74c2"/>
+    </g>
+
+    <g transform="translate(660,40)">
+      <rect x="0" y="0" width="360" height="260" rx="12" fill="#fff"/>
+      <text x="180" y="32" font-size="20" text-anchor="middle" fill="#102a43">Workstation</text>
+      <rect x="28" y="56" width="304" height="160" rx="8" fill="#f7fbff"/>
+      <g transform="translate(44,76)" fill="#0f172a" font-family="sans-serif" font-size="12">
+        <text x="0" y="0">— Image slices</text>
+        <text x="0" y="22">— Contrast maps</text>
+        <text x="0" y="44">— Quantitative analysis</text>
+      </g>
+    </g>
+
+    <g transform="translate(80,420)">
+      <rect x="0" y="0" width="760" height="120" rx="10" fill="#fff"/>
+      <text x="12" y="30" font-size="18" fill="#0f172a">Clinical workstation showing processed breast images and AI annotations.</text>
+    </g>
+  </g>
+</svg>

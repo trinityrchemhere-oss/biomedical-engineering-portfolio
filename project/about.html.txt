@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About | Trinity Ropahh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">Trinity Ropahh</div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="about-section">
+    <h1>About Me</h1>
+    <p>
+        Biomedical Engineering combines my love for medicine and technology.
+        I am dedicated to designing solutions that make healthcare smarter
+        and more accessible.
+    </p>
+
+    <img src="images/biomed_lab.jpg" alt="Biomedical Engineering Lab">
+
+    <h2>Skills</h2>
+    <div class="cards">
+        <div class="card">Medical Imaging</div>
+        <div class="card">Biomedical Research</div>
+        <div class="card">Problem Solving</div>
+        <div class="card">Basic Programming</div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Trinity Ropahh</p>
+</footer>
+
+</body>
+</html>
